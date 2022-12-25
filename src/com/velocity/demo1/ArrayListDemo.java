@@ -14,7 +14,8 @@ public class ArrayListDemo {
 		for (String s : list) {
 			System.out.println(s);
 		}
-		
+		list.add("ram");
+		list.add("sita");
 		System.out.println(list);
 	}
 
