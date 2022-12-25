@@ -14,6 +14,8 @@ public class ArrayListDemo {
 		for (String s : list) {
 			System.out.println(s);
 		}
+		
+		System.out.println(list);
 	}
 
 }
