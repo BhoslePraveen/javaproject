@@ -10,13 +10,8 @@ public class ArrayListDemo {
 		list.add("Shayam");
 		list.add("Mohan");
 		list.add("Vinod");
-
-		for (String s : list) {
-			System.out.println(s);
-		}
-		list.add("ram");
-		list.add("sita");
-		System.out.println(list);
+		
+		list.stream().forEach(x->System.out.println(x));
 	}
 
 }
