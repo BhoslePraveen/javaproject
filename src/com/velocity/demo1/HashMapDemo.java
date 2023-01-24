@@ -20,6 +20,8 @@ public class HashMapDemo {
 			System.out.println(next.getKey());
 			System.out.println(next.getValue());
 		}
+		
+		System.out.println("hello i made change : Dev2");
 	}
 
 }
