@@ -14,7 +14,7 @@ public class ArrayListDemo {
 		list.stream().forEach(x->System.out.println(x));
 		for (String s :list) {
 			System.out.println(s+"asd");
-			System.out.println(s);
+			System.out.println(s+"123");
 			System.out.println(s+"ert");
 		}
 	}
