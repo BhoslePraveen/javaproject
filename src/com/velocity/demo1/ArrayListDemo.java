@@ -16,6 +16,8 @@ public class ArrayListDemo {
 			System.out.println(s+"asd");
 			System.out.println(s+"123");
 			System.out.println(s+"ert");
+			System.out.println("hello");
+			System.out.println("all");
 		}
 	}
 
