@@ -12,6 +12,9 @@ public class ArrayListDemo {
 		list.add("Vinod");
 		
 		list.stream().forEach(x->System.out.println(x));
+		for (String s :list) {
+			System.out.println(s);
+		}
 	}
 
 }
